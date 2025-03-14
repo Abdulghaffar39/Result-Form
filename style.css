@@ -1,1 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+    /* border: 1px solid black; */
+}
 
+
+@font-face {
+    font-family: "poppins";
+    src: url(.//poppins/Poppins-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: "poppins_bold";
+    src: url(.//poppins/Poppins-Bold.ttf);
+}
+
+.poppins_bold {
+    font-family: "poppins_bold";
+}
+
+
+.Result{
+    width: 24rem;
+    height: 20rem;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.button-div {
+    width: 15rem;
+    margin: 0 auto;
+}
+
+button {
+    border-radius: 2rem;
+    padding: 0.8rem;
+}
